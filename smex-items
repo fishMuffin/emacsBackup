@@ -1,0 +1,19 @@
+
+;; ----- smex-history -----
+(
+ org-mode
+ customize-group
+ cua-mode
+ eval-buffer
+ cd
+ 5x5
+ arp
+)
+
+;; ----- smex-data -----
+(
+ (eval-buffer . 2)
+ (customize-group . 2)
+ (cua-mode . 1)
+ (org-mode . 1)
+)
