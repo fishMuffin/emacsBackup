@@ -16,5 +16,14 @@
 (global-set-key "\C-x\ \C-r" 'recentf-open-files)
 (global-set-key (kbd "<f4>") 'open-my-init-file)
 
+(global-set-key (kbd "C-c p f") 'counsel-git)
+(global-set-key (kbd "C-c a") 'org-agenda)
+(global-set-key (kbd "C-c j") 'goto-line)
+(with-eval-after-load 'dired
+  (define-key dired-mode-map (kbd "RET") 'dired-find-alternate-file))
+
+
+
+
 
 (provide 'init-keybinds)

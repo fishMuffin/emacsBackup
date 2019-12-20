@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ indent-region
+ js2-mode
+ shell
+ counsel-git
  eval-buffer
  org-mode
  customize-group
- cua-mode
- cd
- 5x5
- arp
 )
 
 ;; ----- smex-data -----
@@ -16,4 +16,8 @@
  (customize-group . 2)
  (cua-mode . 1)
  (org-mode . 1)
+ (counsel-git . 2)
+ (shell . 1)
+ (js2-mode . 1)
+ (indent-region . 1)
 )
