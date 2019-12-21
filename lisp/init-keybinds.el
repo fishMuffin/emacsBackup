@@ -22,8 +22,11 @@
 (with-eval-after-load 'dired
   (define-key dired-mode-map (kbd "RET") 'dired-find-alternate-file))
 
+(global-set-key (kbd "C-c r") 'org-capture)
+(global-set-key (kbd "C-c t i") 'my-toggle-web-indent)
+(global-set-key (kbd "M-s =") 'er/expand-region)
 
-
-
+;;iedit-mode
+(global-set-key (kbd "M-s e") 'iedit-mode)
 
 (provide 'init-keybinds)

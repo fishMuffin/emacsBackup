@@ -1,23 +1,30 @@
 
 ;; ----- smex-history -----
 (
- indent-region
- js2-mode
  shell
- counsel-git
- eval-buffer
- org-mode
+ org-pomodoro
  customize-group
+ org-capture
+ iedit-mode
+ counsel-imenu
+ imenu
 )
 
 ;; ----- smex-data -----
 (
  (eval-buffer . 4)
- (customize-group . 2)
+ (customize-group . 9)
  (cua-mode . 1)
- (org-mode . 1)
+ (org-mode . 3)
  (counsel-git . 2)
- (shell . 1)
+ (shell . 8)
  (js2-mode . 1)
  (indent-region . 1)
+ (counsel-git-grep . 7)
+ (occur-edit-mode . 2)
+ (imenu . 3)
+ (counsel-imenu . 1)
+ (iedit-mode . 4)
+ (org-capture . 3)
+ (org-pomodoro . 4)
 )
